@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "> 3.1.3"
+  s.add_dependency "rails", ">= 5.2.3"
   s.add_dependency "rails_admin", "<=  2.0"
 
   s.add_development_dependency "pg"
